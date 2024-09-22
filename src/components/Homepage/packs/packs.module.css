@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.packcards {
+    background: url('../../../images/Packs/bgpacks.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.packs {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding-bottom: 95px;
+    padding-top: 64px;
+}
+
+.packs h1 {
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: #0F143A;
+    z-index: 2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.preset {
+    margin-top: 40px;
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid rgba(15, 20, 58, 0.2);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    width: 400px;
+    min-height: 624px;
+    max-height: 800px;
+}
+
+.preset img {
+    width: 344px;
+    height: 128px;
+    margin-top: 16px;
+    margin-left: calc(50% - 172px);
+}
+
+.contentpacks h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 106%;
+    text-align: center;
+}
+
+.items{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 66px;
+}
+
+.items p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    padding-bottom: 8px;
+}
+
+.color {
+    color: #10243f;
+    padding-right: 16px;
+    margin-top: -7px;
+}
+
+.each {
+    display: flex;
+    align-items: center;
+}
+
+.butn {
+    margin-left: calc(50% - 118px);
+    width: 236px;
+    position: absolute;
+    bottom: 26px;
+    text-align: center;
+    background-color: #0F143A;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 14px 32px;
+    border: 1px solid #10243f;
+    cursor: pointer;
+}
+
+.upto {
+    display: flex;
+    justify-content: center;
+}
+
+.min {
+    position: absolute;
+    bottom: 8px;
+    font-size: 12px !important;
+}
+
+@media only screen and (max-width: 1240px) {
+    .packs h1 {
+        font-size: 48px;
+    }
+
+    .preset {
+        width: 400px;
+        min-height: 600px;
+        max-height: 760px;
+    }
+
+    .preset h3 {
+        margin-top: 10px;
+    }
+
+    .items p {
+        font-weight: 600;
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .preset{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .packs{
+        padding-top: 48px;
+    }
+
+    .packs h1 {
+        font-size: 22px;
+    }
+
+    .preset{
+        width: 300px;
+        min-height: 500px;
+        max-height: 580px;
+    }
+
+    .preset h3 {
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 6px;
+    }
+
+    .preset img {
+        margin-left: calc(50% - 129px);
+        width: 258px;
+        height: 96px;
+    }
+
+    .items{
+        margin-left: 30px;
+    }
+
+    .contentpacks p {
+        font-weight: 600;
+        font-size: 14px;
+        padding-bottom: 6px;
+        letter-spacing: 0.02em;
+    }
+    
+    .min {
+        position: absolute;
+        bottom: 4px !important;
+        font-size: 10px !important;
+    }
+
+    .butn {
+        margin-left: calc(50% - 104px);
+        width: 208px;
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
+        background-color: #0F143A;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        border-radius: 6px;
+        font-size: 16px;
+        padding: 13px 28px;
+        border: 1px solid #10243f;
+        cursor: pointer;
+    }
+}

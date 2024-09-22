@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito&family=Taviraj:wght@400;500&display=swap');
+
+.companies {
+    background-image: url(../../../images/Brands/BG.svg);
+    background-color: white;
+    min-height: 100vh;
+    font-family: 'Nunito';
+    text-align: center;
+    padding-top: 136px;
+}
+
+.companies h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #0F143A;
+    line-height: 116%;
+    margin-top: -10px;
+}
+
+.companies h1 span {
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+    text-underline-offset: 0.3rem;
+    color: #0F143A;
+}
+
+.changer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 430px;
+}
+
+.shortarrow {
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.text {
+    margin-left: -250px;
+    margin-top: -34px;
+}
+
+.text p {
+    font-family: 'Gamja Flower';
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: -28px;
+    color: #2A32FF;
+}
+
+.structure{
+    padding-top: 60px;
+    padding-bottom: 136px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.brandimages{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    outline: 3px solid rgba(0, 22, 54, 0.92);
+    outline-offset: -2px;
+}
+
+.brandimages:hover .brandlogos{
+    transform: perspective(2400px) translateZ(150px);
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+}
+
+.brandlogos{
+    width: 260px;
+    height: 200px;
+}
+
+@media only screen and (max-width:2100px) {
+    .structure{
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+
+@media only screen and (max-width:1760px) {
+    .structure{
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .structure{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    .structure{
+        padding-top: 56px;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .companies h1 {
+        font-size: 48px;
+    }
+    
+    .changer {
+        margin-left: 320px;
+    }
+
+    .structure{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .brandlogos{
+        width: 182px;
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width:856px) {
+    .structure{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .companies {
+        padding-top: 76px;
+        padding-bottom: 30px;
+    }
+
+    .companies h1 {
+        font-size: 24px;
+        margin-top: -15px;
+    }
+
+    .changer {
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .shortarrow {
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+
+    .shortarrow img {
+        width: 30px;
+        height: 18px;
+    }
+
+    .text {
+        margin-left: -130px;
+        margin-top: -30px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .structure{
+        padding-top: 32px;
+        padding-bottom: 80px;
+        grid-template-columns: auto auto;
+    }
+
+    .brandlogos{
+        width: 130px;
+        height: 100px;
+    }
+}

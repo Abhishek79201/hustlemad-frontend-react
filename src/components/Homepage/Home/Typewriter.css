@@ -1,0 +1,30 @@
+.Typewriter__wrapper {
+    animation-name: word;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.Typewriter__cursor {
+    font-weight: 300;
+    color: rgba(52, 52, 52, 0.64) !important;
+}
+
+@keyframes word {
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: pink;
+    }
+
+    75% {
+        color: green;
+    }
+
+    100% {
+        color: red;
+    }
+}

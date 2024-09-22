@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.subscribe {
+  font-family: "Nunito", sans-serif;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #fbf595;
+  z-index: 1;
+}
+
+.changer {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 910px;
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.text p {
+  font-family: 'Gamja Flower';
+  font-size: 32px;
+  font-weight: 400;
+  margin-left: -28px;
+  color: rgba(16, 0, 240, 0.72);
+}
+
+.subscribe h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69.6px;
+  margin-bottom: 18px;
+  align-items: center;
+  z-index: 2;
+  margin-top: -22px;
+}
+
+.ovalshape {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -8px;
+  z-index: -1;
+}
+
+.subscribe h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32.48px;
+  margin-bottom: 72px;
+}
+
+.subscribelogo {
+  margin-bottom: 52px;
+}
+
+.pinkline img {
+  width: 100%;
+  margin-bottom: -12px;
+}
+
+.subscribeapps {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribelogo {
+  flex-basis: 18%;
+}
+
+@media only screen and (max-width: 1196px) {
+  .changer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 680px;
+  }
+
+  .shortarrow {
+    transform: scaleX(-1);
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .text {
+    margin-left: 40px;
+  }
+
+  .text p {
+    font-family: 'Gamja Flower';
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-left: -380px;
+    color: rgba(16, 0, 240, 0.72);
+  }
+
+  .subscribelogo {
+    flex-basis: 25%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .changer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 450px;
+    margin-bottom: 10px;
+  }
+
+  .shortarrow {
+    transform: scaleX(-1);
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .text {
+    margin-left: 40px;
+  }
+
+  .text p {
+    font-family: 'Gamja Flower';
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-left: -380px;
+    color: rgba(16, 0, 240, 0.72);
+  }
+
+  .subscribelogo {
+    flex-basis: 25%;
+  }
+
+  .calm img {
+    width: 95px;
+    height: 37px;
+  }
+
+  .headspace img {
+    width: 176px;
+    height: 40px;
+  }
+
+  .spotify img {
+    width: 130px;
+    height: 40px;
+  }
+
+  .masterclass img {
+    width: 43px;
+    height: 33px;
+  }
+
+  .youtube img {
+    width: 114px;
+    height: 26px;
+  }
+
+  .mubi img {
+    width: 128px;
+    height: 40px;
+  }
+
+  .innerhour img {
+    width: 128px;
+    height: 40px;
+  }
+
+  .ultrahuman img {
+    width: 164px;
+    height: 52px;
+  }
+
+  .cultfit img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .theken img {
+    width: 192px;
+    height: 40px;
+  }
+
+  .subscribe h1 {
+    font-size: 40px;
+    line-height: 46.4px;
+  }
+
+  .ovalshape {
+    position: absolute;
+    margin-left: -11px;
+    margin-top: -8px;
+    z-index: 1;
+    width: 168px;
+    height: 64px;
+  }
+
+  .subscribe h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .changer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 290px;
+    margin-bottom: 10px;
+  }
+
+  .shortarrow {
+    transform: scaleX(-1);
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .shortarrow img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .text {
+    margin-left: 40px;
+  }
+
+  .text p {
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-left: -240px;
+    color: rgba(16, 0, 240, 0.72);
+  }
+
+  .subscribe {
+    padding-top: 24px;
+  }
+
+  .subscribelogo {
+    flex-basis: 24%;
+  }
+
+  .calm img {
+    width: 60px;
+    height: 24px;
+  }
+
+  .headspace img {
+    width: 106px;
+    height: 24px;
+  }
+
+  .spotify img {
+    width: 80px;
+    height: 24px;
+  }
+
+  .masterclass img {
+    width: 32px;
+    height: 26px;
+  }
+
+  .youtube img {
+    width: 90px;
+    height: 20px;
+  }
+
+  .mubi img {
+    width: 78px;
+    height: 24px;
+  }
+
+  .innerhour img {
+    width: 64px;
+    height: 24px;
+  }
+
+  .ultrahuman img {
+    width: 82px;
+    height: 26px;
+  }
+
+  .cultfit img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .theken img {
+    width: 96px;
+    height: 20px;
+  }
+
+  .subscribe h1 {
+    font-size: 24px;
+    line-height: 116% !important;
+  }
+
+  .ovalshape {
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -6px;
+    z-index: 1;
+    width: 94px;
+    height: 36px;
+  }
+
+  .subscribe h2 {
+    font-size: 14px;
+    line-height: 17px;
+    width: 292px;
+    margin-left: calc(50% - 292px/2 - 0.5px);
+    margin-bottom: 24px;
+  }
+
+  .subscribelogo {
+    margin-bottom: 20px !important;
+  }
+}

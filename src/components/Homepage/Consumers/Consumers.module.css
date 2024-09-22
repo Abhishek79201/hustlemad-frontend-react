@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.consumers {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F7E6FF;
+}
+
+.consumers h1 {
+    text-align: center;
+    font-weight: 700;
+    line-height: 116%;
+    font-size: 54px;
+    padding-top: 56px;
+    padding-bottom: 20px;
+    color: #0F143A;
+}
+
+.con {
+    margin-top: 40px;
+    padding-bottom: 56px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logoname{
+    margin-right: 92px;
+    height:78px;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .consumers h1 {
+        font-size: 42px;
+        padding-bottom: 10px;
+    }
+
+    .logoname{
+        margin-right: 64px;
+        height:66px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .consumers h1 {
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+
+    .logoname{
+        margin-right: 44px;
+        height:54px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .consumers h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .consumers h1 {
+        width:260px;
+        margin-left: calc(50% - 130px);
+        font-size: 24px;
+        line-height:36px;
+        padding-top: 28px;
+        padding-bottom: 0px;
+    }
+
+    .con {
+        margin-top: 20px;
+        padding-bottom: 28px;
+    }
+    
+    .logoname{
+        margin-right: 26px;
+        height:24px;
+    }
+}

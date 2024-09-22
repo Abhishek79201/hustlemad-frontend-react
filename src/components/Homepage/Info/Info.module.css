@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.info {
+  margin-top: -55px;
+  background-color: #FAF7F1;
+  font-family: 'Nunito', sans-serif;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  width: 100%;
+}
+
+.info h1 {
+  position: relative;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 64px;
+  font-weight: 700;
+  line-height: 116%;
+  z-index: 5;
+}
+
+.info h3 {
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 116%;
+  letter-spacing: 0.04em;
+}
+
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 56px;
+  margin-bottom: 36px;
+}
+
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+#inputfield::placeholder {
+  color: rgba(52, 52, 52, 0.64);
+}
+
+#inputfield {
+  font-size: 20px ;
+  line-height: 116% ;
+  letter-spacing: 0.04em ;
+  color: #0F143A ;
+  height: 56px ;
+  width: 480px ;
+  border-radius: 8px ;
+  text-decoration: none ;
+  padding-left: 24px ;
+  font-family: 'Nunito', sans-serif ;
+  align-items: center ;
+  border: 2px solid rgba(0, 22, 54, 0.92) ;
+  margin-bottom: 0px ;
+}
+
+textarea:focus, #input:focus {
+  outline: none;
+}
+
+.selectfield {
+  font-size: 20px;
+  line-height: 116%;
+  letter-spacing: 0.04em;
+  color: #0F143A;
+  height: 56px;
+  width: 480px;
+  border-radius: 8px;
+  text-decoration: none;
+  padding-left: 24px;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  border: 2px solid rgba(0, 22, 54, 0.92);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 14px;
+}
+
+.selectfield:invalid{
+  color:rgba(52, 52, 52, 0.64) ;
+}
+
+option{
+  color: #0F143A;
+}
+
+.top2 {
+  margin-left: 64px;
+}
+
+.middle2 {
+  margin-left: 64px;
+}
+
+.bottom2 {
+  margin-left: 64px;
+}
+
+#inputfield::-webkit-outer-spin-button,
+#inputfield::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 118px;
+  margin-top: 0px;
+}
+
+.bttn {
+  padding: 16px 40px;
+  width: 263px;
+  height: 62px;
+  background: #0F143A;
+  border-radius: 6px;
+  border: 1px solid #0F143A;
+  color: white;
+  font-size: 24px;
+  line-height: 124%;
+  letter-spacing: 0.016em;
+  cursor: pointer;
+  margin-top: 0px ;
+}
+
+.bttn:hover {
+  transition: all 0.3s ease;
+  background-color: transparent;
+  color: #0F143A;
+  border: 1px solid #0F143A;
+}
+
+@media only screen and (max-width:1240px) {
+  #inputfield {
+    width: 400px;
+  }
+
+  .selectfield {
+    width: 400px;
+  }
+
+  .info h3 {
+    font-size: 20px;
+  }
+
+  .top2 {
+    margin-left: 56px;
+  }
+
+  .middle2 {
+    margin-left: 56px;
+  }
+
+  .bottom2 {
+    margin-left: 56px;
+  }
+}
+
+@media only screen and (max-width:1030px) {
+  .first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: calc(50% - 202px);
+  }
+
+  .second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: calc(50% - 202px);
+  }
+
+  .third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: calc(50% - 202px);
+  }
+
+  .top1 {
+    flex-basis: 100%;
+    margin-bottom: 36px;
+  }
+
+  .top2 {
+    margin-left: 0px;
+    flex-basis: 100%;
+    margin-bottom: 36px;
+  }
+
+  .middle1 {
+    flex-basis: 100%;
+    margin-bottom: 36px;
+  }
+
+  .middle2 {
+    margin-left: 0px;
+    flex-basis: 100%;
+    margin-bottom: 36px;
+  }
+
+  .bottom1 {
+    flex-basis: 100%;
+    margin-bottom: 36px;
+  }
+
+  .bottom2 {
+    margin-left: 0px;
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .info {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .info h1 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 36px;
+    font-weight: 700;
+    line-height: 116%;
+  }
+
+  .info h3 {
+    font-weight: 600;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+  }
+
+  .first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: calc(50% - 152px);
+    margin-top: 32px;
+  }
+
+  .second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: calc(50% - 152px);
+    margin-top: 0px;
+  }
+
+  .third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: calc(50% - 152px);
+    margin-bottom: 0px ;
+  }
+
+  #inputfield {
+    width: 300px ;
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .selectfield {
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    background-position-y: 6px;
+  }
+
+  .top1 {
+    flex-basis: 100%;
+    margin-bottom: 26px;
+  }
+
+  .top2 {
+    margin-left: 0px;
+    flex-basis: 100%;
+    margin-bottom: 26px;
+  }
+
+  .middle1 {
+    flex-basis: 100%;
+    margin-bottom: 26px;
+  }
+
+  .middle2 {
+    margin-left: 0px;
+    flex-basis: 100%;
+    margin-bottom: 26px;
+  }
+
+  .bottom1 {
+    flex-basis: 100%;
+    margin-bottom: 26px;
+  }
+
+  .bottom2 {
+    margin-left: 0px;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+  }
+
+  .bttn {
+    padding: 13px 28px;
+    width: 177px;
+    height: 46px;
+    background: #0F143A;
+    border-radius: 6px;
+    border: 1px solid #0F143A;
+    color: white;
+    font-size: 16px;
+    line-height: 124%;
+    letter-spacing: 0.016em;
+  }
+}

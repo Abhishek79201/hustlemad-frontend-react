@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+
+.footer {
+    background: #FAF7F1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Poppins';
+    height: 6.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contentFooter {
+    margin-left: 6.94%;
+    margin-right: 6.94%;
+}
+
+.lineFooter {
+    border: 1px solid rgba(15, 20, 58, 0.4);
+    border-bottom: 0px;
+    margin-top: 38px;
+}
+
+.writingFooter {
+    margin-top: 16px;
+    display: flex;
+    margin-left: 1.39%;
+    margin-right: 1.39%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftFooter {
+    display: flex;
+    align-items: center;
+}
+
+.leftFooter img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1.67%;
+    margin-top: -2px;
+}
+
+.leftFooter p {
+    font-size: 14px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    margin-left: 1.38%;
+    font-weight: 400;
+    width: 270px;
+}
+
+.rightFooter {
+    display: flex;
+    align-items: center;
+}
+
+.rightFooter p {
+    font-size: 14px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.rightFooter img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:960px) {
+    .writingFooter {
+        font-size: 14px;
+    }
+
+    .leftFooter img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .rightFooter img {
+        width: 18px;
+        height: 18px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .rightFooter p{
+        font-size: 12px;
+    }
+
+    .leftFooter p{
+        font-size: 12px;
+        width: 240px;
+    }
+
+    .leftFooter img {
+        width: 18x;
+        height: 18px;
+    }
+
+    .rightFooter img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .footer {
+        height: 85px;
+    }
+
+    .lineFooter {
+        margin-top: 28px;
+    }
+
+    .writingFooter {
+        margin-top: 12px;
+    }
+
+    .rightFooter p{
+        font-size: 10px;
+        margin-right: 10px;
+        letter-spacing: 0em;
+    }
+
+    .leftFooter p{
+        font-size: 10px;
+        width: 180px;
+        letter-spacing: 0em;
+    }
+
+    .leftFooter img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .rightFooter img {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .leftFooter img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .rightFooter img {
+        width: 14px;
+        height: 14px;
+        margin-right: 3px;
+    }
+}

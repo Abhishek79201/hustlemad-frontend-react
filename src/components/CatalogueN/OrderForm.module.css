@@ -1,0 +1,713 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap");
+
+.view {
+    display: none;
+}
+
+.everything {
+    padding-top: 112px;
+    margin-left: 56px;
+    background: #faf7f1;
+    font-family: "Nunito";
+}
+
+.upper {
+    width: fit-content;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    font-family: "Nunito";
+}
+
+.swag {
+    width: fit-content;
+    margin-right: 8px;
+    letter-spacing: 0.04em;
+    color: rgba(15, 20, 58, 0.56);
+    cursor: pointer;
+}
+
+.greater {
+    width: fit-content;
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+.swag:hover{
+    color: #0F143A;
+}
+
+.OrderForm {
+    width: fit-content;
+    margin-top: 44px;
+    color: #0F143A;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.orderheading {
+    padding-left: 16px;
+    font-size: 30px;
+    color: #0F143A;
+}
+
+.edit {
+    margin-top: 3px;
+    padding-left: 32px;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer
+}
+
+.form {
+    padding-left: 48px;
+}
+
+.form h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 116%;
+    color: rgba(15, 20, 58, 0.8);
+}
+
+.second {
+    margin-top: 36px;
+}
+
+.middle1 {
+    margin-right: 64px;
+}
+
+.third {
+    margin-top: 36px;
+}
+
+.fourth {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#inputfield::placeholder {
+    color: rgba(52, 52, 52, 0.64);
+}
+
+#inputfield {
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    height: 52px;
+    width: 864px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-left: 24px;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    border: 2px solid rgba(15, 20, 58, 0.8);
+    margin-bottom: 0px;
+    padding-right: 16px;
+}
+
+#inputfieldswag::placeholder {
+    color: rgba(52, 52, 52, 0.64);
+}
+
+#inputfield::-webkit-outer-spin-button,
+#inputfield::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#inputfieldswag::-webkit-outer-spin-button,
+#inputfieldswag::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#inputfieldswag {
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    height: 52px;
+    width: 864px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-left: 24px;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    border: 2px solid rgba(15, 20, 58, 0.8);
+    margin-bottom: 0px;
+}
+
+#inputfieldcontact::-webkit-outer-spin-button,
+#inputfieldcontact::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#inputfieldcontact {
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    height: 52px;
+    width: 400px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-left: 24px;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    border: 2px solid rgba(15, 20, 58, 0.8);
+    margin-bottom: 0px;
+}
+
+.boxing {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+}
+
+.boxdesign {
+    width: 300px;
+    padding: 10px 12px;
+    margin-top: 24px;
+    align-items: center;
+    background-color: white;
+    display: inline-flex;
+    border: 1px solid rgba(15, 20, 58, 0.08);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-right: 24px;
+}
+
+.boxdesignextra {
+    width: 300px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-top: 24px;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 4px;
+    margin-right: 24px;
+    background: rgba(15, 20, 58, 0.04);
+    border: 1px solid rgba(15, 20, 58, 0.08);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.item {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.box img {
+    width: 40px;
+    height: 40px;
+}
+
+.product {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    margin-bottom: 6px;
+}
+
+.rate {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    margin-bottom: 4px;
+}
+
+.desc {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.diff {
+    padding-bottom: 60px;
+}
+
+.bttn {
+    text-align: center;
+    padding: 16px 40px;
+    width: 263px;
+    height: 62px;
+    background: #0F143A;
+    border-radius: 6px;
+    border: 1px solid #0F143A;
+    color: white;
+    font-size: 24px;
+    line-height: 124%;
+    letter-spacing: 0.016em;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.ContactForm {
+    padding-bottom: 100px;
+}
+
+.firstline {
+    display: inline-flex;
+}
+
+.top1 {
+    margin-right: 64px;
+}
+
+.bottom1 {
+    margin-right: 64px;
+}
+
+.secondline {
+    margin-top: 36px;
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+.buton {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.cartsystem {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+@media only screen and (min-width:1818px) {
+    #inputfieldswag {
+        width: 1200px;
+    }
+
+    #inputfield {
+        width: 1200px;
+    }
+
+    #inputfieldcontact {
+        width: 540px;
+    }
+
+    .middle1 {
+        margin-right: 120px;
+    }
+
+    .diff img {
+        width: 1254px;
+    }
+
+    .top1 {
+        margin-right: 120px;
+    }
+
+    .bottom1 {
+        margin-right: 120px;
+    }
+
+    .boxing {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1500px !important;
+    }
+
+    .ContactForm {
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width:1528px) {
+    #inputfieldswag {
+        width: 1000px;
+    }
+
+    #inputfield {
+        width: 1000px;
+    }
+
+    #inputfieldcontact {
+        width: 460px;
+    }
+
+    .middle1 {
+        margin-right: 80px;
+    }
+
+    .diff img {
+        width: 1108px;
+    }
+
+    .top1 {
+        margin-right: 80px;
+    }
+
+    .bottom1 {
+        margin-right: 80px;
+    }
+
+    .boxing {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width:1392px) {
+    #inputfield {
+        width: 480px;
+    }
+
+    #inputfieldswag {
+        width: 480px;
+    }
+
+    #inputfieldcontact {
+        width: 480px;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle2 {
+        margin-top: 36px;
+    }
+
+    .firstline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top2 {
+        margin-top: 40px;
+    }
+
+    .bottom2 {
+        margin-top: 40px;
+    }
+
+    .secondline {
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width:1144px) {
+    #inputfield {
+        width: 400px;
+    }
+
+    #inputfieldswag {
+        width: 400px;
+    }
+
+    #inputfieldcontact {
+        width: 400px;
+    }
+
+    .boxing {
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width:1225px) {
+    .cartsystem {
+        display: none;
+    }
+
+    .cartpopup {
+        position: fixed;
+        right: 0px;
+        top: 140px;
+        z-index: 9;
+    }
+
+    .view {
+        display: block;
+        margin-top: 80px;
+        position: fixed;
+        right: 0px;
+    }
+
+    .bttnn {
+        text-align: center;
+        padding: 20px 32px;
+        height: 58px;
+        background: #0F143A;
+        border-radius: 6px;
+        border: 1px solid #0F143A;
+        color: white;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0.016em;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+
+    .bttnn:hover {
+        transition: all 0.3s ease;
+        background-color: transparent;
+        color: #0F143A;
+        border: 1px solid #0F143A;
+    }
+}
+
+@media only screen and (max-width:740px) {
+    #inputfield {
+        width: 360px;
+    }
+
+    #inputfieldswag {
+        width: 360px;
+    }
+
+    #inputfieldcontact {
+        width: 360px;
+    }
+
+    .form h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .view {
+        display: block;
+        margin-top: 48px;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        padding: 16px 32px 8px;
+        background: rgba(15, 20, 58, 1);
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 12px 12px;
+        cursor: pointer;
+        height: 70px;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .bttnn {
+        text-align: center;
+        padding: 0px 0px;
+        height: 35px;
+        background: transparent;
+        border-radius: 0px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0.016em;
+    }
+
+    .bttnn:hover {
+        transition: all 0.3s ease;
+        background-color: transparent;
+        color: white;
+        border: 1px solid #0F143A;
+    }
+
+    .everything {
+        padding-top: 140px;
+        margin-left: 22px;
+    }
+
+    .OrderForm {
+        margin-top: 26px;
+    }
+
+    #inputfield {
+        width: 270px;
+        height: 48px;
+        font-size: 16px;
+        padding-left: 18px;
+    }
+
+    #inputfieldswag {
+        width: 270px;
+        height: 48px;
+        font-size: 16px;
+        padding-left: 18px;
+    }
+
+    #inputfieldcontact {
+        width: 270px;
+        height: 48px;
+        font-size: 16px;
+        padding-left: 18px;
+    }
+
+    .form h3 {
+        font-size: 14px;
+    }
+
+    .heading {
+        margin-bottom: 28px;
+    }
+
+    .second {
+        margin-top: 20px;
+    }
+
+    .middle2 {
+        margin-top: 20px;
+    }
+
+    .third {
+        margin-top: 20px;
+    }
+
+    .fourth {
+        margin-top: 20px;
+    }
+
+    .orderheading {
+        padding-left: 12px;
+        font-size: 22px;
+    }
+
+    .heading img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .form {
+        padding-left: 30px;
+    }
+
+    .boxing {
+        display: flex;
+        flex-wrap: wrap;
+        width: 264px;
+    }
+
+    .boxdesign {
+        width: 264px;
+        padding: 8px 10px;
+        margin-top: 14px;
+        align-items: center;
+        background-color: white;
+        display: inline-flex;
+        border: 1px solid rgba(15, 20, 58, 0.08);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+    }
+
+    .boxdesignextra{
+        width: 264px;
+    }
+
+    .box img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .item {
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .product {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: #0F143A;
+        margin-bottom: 6px;
+    }
+
+    .rate {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: #0F143A;
+        margin-bottom: 4px;
+    }
+
+    .desc {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: #0F143A;
+    }
+
+    .diff {
+        padding-bottom: 40px;
+    }
+
+    .ContactForm {
+        padding-bottom: 100px;
+    }
+
+    .firstline {
+        /* margin-top: 24px; */
+        display: inline-flex;
+    }
+
+    .top2 {
+        margin-top: 20px;
+    }
+
+    .bottom2 {
+        margin-top: 20px;
+    }
+
+    .secondline {
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+
+    .buton {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .mesg {
+        font-size: 14px;
+    }
+
+    .bttn {
+        text-align: center;
+        padding: 13px 28px;
+        height: 48px;
+        background: #0F143A;
+        border-radius: 6px;
+        border: 1px solid #0F143A;
+        color: white;
+        font-size: 18px;
+        line-height: 124%;
+        letter-spacing: 0.016em;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+}

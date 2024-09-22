@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito&family=Taviraj:wght@400;500&display=swap');
+
+.brands {
+    font-family: 'Nunito';
+    text-align: center;
+    background-color: #fbf595;
+    /* background-color: #A0FFF9; */
+    padding-top: 20px;
+    padding-bottom: 56px;
+}
+
+.brands h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #0F143A;
+    margin-top: -20px;
+}
+
+.brands h1 span {
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+    text-underline-offset: 0.3rem;
+    color: #0F143A;
+}
+
+.changer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 490px;
+}
+
+.shortarrow {
+    margin-left: 230px;
+}
+
+.text {
+    margin-left: 40px;
+}
+
+.text p {
+    font-family: 'Gamja Flower';
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: -28px;
+    color: rgba(16, 0, 240, 0.72);
+}
+
+.brandcompanies {
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 36px 120px;
+    padding-bottom: 48px;
+}
+
+.brandlogos {
+    width: 160px !important;
+    height: 80px !important;
+}
+
+.viewmore {
+    display: inline-block;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: rgba(15, 20, 58, 0.8);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+    text-underline-offset: 0.3rem;
+}
+
+@media only screen and (max-width:1720px) {
+    .brandcompanies {
+        gap: 36px 100px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .brandcompanies {
+        gap: 24px 60px;
+        padding-bottom: 36px;
+    }
+}
+
+@media only screen and (max-width:1120px) {
+    .brands{
+        padding-top: 56px;
+    }
+
+    .changer {
+        margin-left: 320px;
+    }
+
+    .shortarrow {
+        transform: scaleX(-1);
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
+    .text {
+        margin-left: -250px;
+        margin-top: -30px;
+    }
+
+    .brandcompanies {
+        gap: 18px 32px;
+        padding-bottom: 18px;
+    }
+    
+    .brandlogos {
+        width: 120px !important;
+        height: 60px !important;
+    }
+    
+    .viewmore {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .brandcompanies {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: auto auto auto auto;
+        gap: 18px 32px;
+        padding-bottom: 30px;
+    }
+
+    .brandimages{
+        flex-basis: 20%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .brands {
+        padding-top: 36px;
+        padding-bottom: 30px;
+    }
+
+    .brands h1 {
+        font-size: 24px;
+    }
+
+    .changer {
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .shortarrow {
+        transform: scaleX(-1);
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+
+    .shortarrow img {
+        width: 30px;
+        height: 18px;
+    }
+
+    .text {
+        margin-left: -130px;
+        margin-top: -30px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .brandcompanies {
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 24px 28px;
+        padding-bottom: 24px;
+    }
+
+    .viewmore {
+        font-size: 12px;
+    }
+}

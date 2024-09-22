@@ -1,0 +1,125 @@
+.schedule {
+    background: #D7FFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.customercare {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.schedulecontent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 92px;
+    margin-left: 205px;
+}
+
+.questions {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: rgba(0, 22, 54, 0.92);
+}
+
+.expert {
+    margin-top: 28px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: rgba(0, 22, 54, 0.92);
+}
+
+.bookbtn {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px;
+    background: #0F143A;
+    border-radius: 6px;
+    color: white;
+    width: 152px;
+    margin-left: calc(50% - 76px);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+}
+
+.customercare img {
+    width: 396px;
+    height: 348px;
+}
+
+@media only screen and (max-width:1600px) {
+    .schedulecontent {
+        margin-left: 105px;
+    }
+}
+
+@media only screen and (max-width:1132px) {
+    .schedulecontent {
+        margin-left: 52px;
+        margin-top: 50px;
+    }
+
+    .customercare img {
+        width: 318px;
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .schedule {
+        flex-direction: column;
+    }
+
+    .customercare {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .schedulecontent {
+        margin-bottom: 60px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .customercare img {
+        width: 272px;
+        height: 240px;
+    }
+
+    .schedulecontent {
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .questions {
+        font-size: 22px;
+    }
+
+    .expert {
+        margin-top: 22px;
+        font-size: 18px;
+    }
+
+    .bookbtn {
+        margin-top: 18px;
+        padding: 8px 0px;
+        width: 87px;
+        margin-left: calc(50% - 43.5px);
+        font-size: 12px;
+    }
+}

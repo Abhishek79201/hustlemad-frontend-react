@@ -1,0 +1,586 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.entirenavbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #faf7f1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Nunito";
+  position: fixed;
+  z-index: 51;
+  justify-content: space-between;
+}
+
+.left {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+.hustlemadlogo {
+  width: 102px;
+  height: 20px;
+}
+
+.menu-links {
+  display: inline-flex;
+  margin-left: 48px;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: rgba(0, 22, 54, 0.92);
+}
+
+.home,
+.product,
+.hustlemadsbuild {
+  margin-right: 28px;
+}
+
+.diwalipacks {
+  margin-left: 28px;
+}
+
+.home,
+.product,
+.company,
+.hustlemads,
+.hustlemadsbuild
+ {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(0, 22, 54, 0.92) !important;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.diwalipacks {
+  font-weight:800;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #f94e0a !important;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.contact-info {
+  justify-content: end;
+  margin-right: 40px;
+}
+
+.phonelogo {
+  width: 14px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: rgba(0, 22, 54, 0.92);
+}
+
+.productoptions {
+  z-index: 500;
+  display: none;
+  position: absolute;
+  background: #FAF7F1;
+  border: 1px solid rgba(15, 20, 58, 0.72);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  top: 60px;
+  margin-left: -65px;
+  text-align: left;
+  min-height: 40px;
+  width: 200px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: rgba(0, 22, 54, 0.92);
+}
+
+.building {
+  padding: 15px 15px 11px 15px;
+  border-bottom: 1px solid rgba(15, 20, 58, 0.72);
+  display: flex;
+  align-items: center;
+}
+
+.buildings {
+  padding: 10px 15px 11px 15px;
+  /* border-bottom: 1px solid rgba(15, 20, 58, 0.72); */
+  display: flex;
+  align-items: center;
+}
+
+.hustlemadstore {
+  padding: 15px 15px 11px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.build,
+.store {
+  padding-right: 12px;
+}
+
+.product:hover .companyoptions {
+  display: block;
+}
+
+.hustlemads:hover .partneroptions {
+  display: block;
+}
+
+/* .company:hover .companyoptions{
+  display: block;
+} */
+
+.productoptions::after,
+.companyoptions:after,
+.partneroptions::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(15, 20, 58, 0.72) transparent;
+}
+
+.companyoptions {
+  z-index: 500;
+  display: none;
+  position: absolute;
+  background: #FAF7F1;
+  border: 1px solid rgba(15, 20, 58, 0.72);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  top: 60px;
+  margin-left: -60px;
+  text-align: left;
+  min-height: 40px;
+  width: 200px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: rgba(0, 22, 54, 0.92);
+}
+
+.partneroptions {
+  z-index: 500;
+  display: none;
+  position: absolute;
+  background: #FAF7F1;
+  border: 1px solid rgba(15, 20, 58, 0.72);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  top: 60px;
+  margin-left: -68px;
+  text-align: left;
+  min-height: 40px;
+  width: 200px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: rgba(0, 22, 54, 0.92);
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobileham {
+  display: none;
+}
+
+@media only screen and (max-width:890px) {
+  .menu-links {
+    margin-left: 24px;
+    font-size: 14px;
+  }
+
+  .home,
+  .product,
+  .hustlemadsbuild {
+    margin-right: 14px;
+  }
+
+  .diwalipacks {
+    margin-left: 14px;
+  }
+
+  .call {
+    font-size: 14px;
+  }
+
+  .phonelogo {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+  }
+
+  .contact-info {
+    margin-right: 18px;
+  }
+}
+
+@media only screen and (max-width:730px) {
+  .menu-links {
+    display: none;
+  }
+
+  .right {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-right: 28px;
+  }
+
+  .contact-info {
+    margin-right: 24px;
+  }
+
+  .phonelogo {
+    margin-right: 0px;
+  }
+
+  .contact-info p {
+    display: none;
+  }
+
+  .mobileham {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #FAF7F1;
+    z-index: 55;
+    display: flex;
+  }
+
+  .closeimg {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+
+  .mobile-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+  }
+
+  .mobile-logo {
+    margin-top: 64px;
+  }
+
+  .mobile-hustlemadlogo {
+    width: 160px;
+    height: 32px;
+  }
+
+  .mobile-content {
+    z-index: 50;
+    margin-top: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: rgba(0, 22, 54, 0.92);
+  }
+
+  .mobile-content ul {
+    list-style: none;
+  }
+
+  .home,
+  .product,
+  .hustlemadsbuild
+  {
+    margin-bottom: 36px;
+  }
+
+  .diwalipacks{
+    margin-top: 36px;
+    margin-left: 0px;
+  }
+
+  .home,
+  .product,
+  .company,
+  .hustlemads,
+  .hustlemadsbuild,
+  .diwalipacks {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .mobile-hustlemads {
+    z-index: 500;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: rgba(0, 22, 54, 0.92);
+  }
+
+  .rocketimg {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .productoptions {
+    margin-left: 0px;
+    top: auto;
+    margin-top: 80px;
+  }
+
+  .companyoptions {
+    margin-left: 0px;
+    top: auto;
+    margin-top: 190px;
+  }
+
+  .partneroptions {
+    margin-left: 0px;
+    top: auto;
+    margin-top: 140px;
+  }
+
+  .productoptions::after,
+  .companyoptions:after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(15, 20, 58, 0.72) transparent;
+  }
+
+  .partneroptions::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(15, 20, 58, 0.72) transparent;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .entirenavbar {
+    height: 48px;
+  }
+
+  .logo {
+    cursor: pointer;
+    margin-left: 28px;
+  }
+
+  .hustlemadlogo {
+    width: 80px;
+    height: 16px;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .right {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-right: 28px;
+  }
+
+  .contact-info {
+    margin-right: 24px;
+  }
+
+  .phonelogo {
+    margin-right: 0px;
+  }
+
+  .contact-info p {
+    display: none;
+  }
+
+  .mobileham {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #FAF7F1;
+    z-index: 55;
+    display: flex;
+  }
+
+  .closeimg {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+
+  .mobile-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+  }
+
+  .mobile-logo {
+    margin-top: 64px;
+  }
+
+  .mobile-hustlemadlogo {
+    width: 160px;
+    height: 32px;
+  }
+
+  .mobile-content {
+    z-index: 50;
+    margin-top: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: rgba(0, 22, 54, 0.92);
+  }
+
+  .mobile-content ul {
+    list-style: none;
+  }
+
+  .home,
+  .product,
+  .hustlemadsbuild,
+  .diwalipacks {
+    margin-bottom: 36px;
+  }
+
+  .home,
+  .product,
+  .company,
+  .hustlemads,
+  .hustlemadsbuild,
+  .diwalipacks {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .mobile-hustlemads {
+    z-index: 500;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: rgba(0, 22, 54, 0.92);
+  }
+
+  .rocketimg {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .productoptions {
+    margin-left: 0px;
+    top: auto;
+    margin-top: 80px;
+  }
+
+  .companyoptions {
+    margin-left: 0px;
+    top: auto;
+    margin-top: 190px;
+  }
+
+  .partneroptions {
+    margin-left: 0px;
+    top: auto;
+    margin-top: 140px;
+  }
+
+  .productoptions::after,
+  .companyoptions:after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(15, 20, 58, 0.72) transparent;
+  }
+
+  .partneroptions::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(15, 20, 58, 0.72) transparent;
+  }
+}

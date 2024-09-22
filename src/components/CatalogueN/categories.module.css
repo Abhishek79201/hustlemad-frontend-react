@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+.categorymobile {
+    display: none;
+}
+
+/* .categorymobile_dropdown{
+    display: none;
+} */
+
+a {
+    text-decoration: none !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cgrs {
+    margin-top: 80px;
+    width: 200px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    position: fixed;
+    background: #fffefd;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.topic {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 12px 0px;
+}
+
+.topic p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    color: #0f143a;
+}
+
+hr {
+    border: 1px solid rgba(0, 22, 54, 0.2);
+    border-bottom: 0px;
+}
+
+.lis {
+    width: 100%;
+    margin-top: 28px;
+    display: flex;
+    text-align: left;
+    cursor: pointer;
+}
+
+.lis ul {
+    list-style: none;
+}
+
+.lis ul li {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.a1 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.lis ul li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+
+.name {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: rgba(15, 20, 58, 0.8);
+}
+
+@media only screen and (max-width:1225px) {
+    .cgrs {
+        display: none;
+    }
+
+    .categorymobile{
+        margin-top: 80px;
+        position: fixed;
+        width: 100%;
+        z-index: 51;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .categorymobilecontainer {
+        padding-top: 12px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        z-index: 51;
+        background: #FAF7F1;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+    }
+
+    .categorymobile_heading {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 116%;
+        letter-spacing: 0.04em;
+        color: #0F143A;
+        margin-bottom: 8px;
+    }
+
+    .categorymobile_options {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .categorymobile_options_active img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .categorymobile_options_active {
+        align-items: center;
+        display: inline-flex;
+        width: 160px;
+        margin-left: 12px;
+        margin-right: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .categorymobile_options_active h3 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.04em;
+        color: rgba(15, 20, 58, 0.8);
+        margin-left: 16px;
+    }
+
+    .categorymobile_dropdown{
+        display: block;
+        position: absolute;
+        top: 108px;
+        background: white;
+        text-align: left;
+        width: 200px;
+        border-radius: 8px;
+        left: calc(50% - 100px);
+    }
+
+    .categorymobile_dropdown::after{
+        content: " ";
+        position: absolute;
+        top:-25px;
+        z-index: 102;
+        left: 50%;
+        margin-left: -10px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent white transparent;
+      }
+
+    .categorymobile_dropdown_names ul{
+        list-style: none;
+    }
+
+    .categorymobile_dropdown_names{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        display: flex;
+        text-align: left;
+        cursor: pointer;
+    }
+    
+    .categorymobile_dropdown_names ul li {
+        margin-bottom: 20px;
+    }
+    
+    .a1 {
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .categorymobile_dropdown_names ul li img {
+        width: 32px;
+        height: 32px;
+        margin-right: 16px;
+    }
+    
+    .name {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.04em;
+        color: rgba(15, 20, 58, 0.8);
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .categorymobile{
+        margin-top: 46px;
+    }
+}

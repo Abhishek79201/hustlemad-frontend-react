@@ -1,0 +1,455 @@
+.box {
+    margin-top: 80px;
+    width: 300px;
+    background: #FFFEFD;
+    box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 16px 0px 0px 16px;
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+}
+
+.boxorderform {
+    margin-top: 80px;
+    width: 300px;
+    background: #FFFEFD;
+    box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 16px 0px 0px 16px;
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 12px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.closebtn {
+    display: none;
+}
+
+.differentline {
+    border: 1px solid rgba(0, 22, 54, 0.2);
+}
+
+hr {
+    border-bottom: 0px;
+}
+
+.line {
+    border: 1px solid rgba(15, 20, 58, 0.08);
+}
+
+.productselected {
+    height: calc(100vh - 400px);
+    top: 80px;
+    overflow-y: auto;
+}
+
+.productselected::-webkit-scrollbar-track {
+    border: none;
+    margin: 0px 0px;
+    background-color: transparent;
+}
+
+.productselected::-webkit-scrollbar {
+    width: 4px;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.productselected::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #0F143A;
+    border: 1px solid rgba(15, 20, 58, 0.08);
+}
+
+.boxdesign {
+    margin-top: 6px;
+    padding: 10px 12px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imageandname {
+    display: flex;
+    flex-direction: row;
+}
+
+.none {
+    display: flex;
+}
+
+.noitems {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.additems {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(15, 20, 58, 0.4);
+}
+
+.boxdesignextra {
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px 12px;
+    align-items: center;
+    display: inline-flex;
+    background: rgba(15, 20, 58, 0.04);
+    border-radius: 18px;
+    overflow-y: auto;
+}
+
+.item {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.product {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    margin-bottom: 10px;
+    width: 140px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rate {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    margin-bottom: 4px;
+}
+
+.desc {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.delete {
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.itemextra {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.productextra {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0F143A;
+    margin-bottom: 10px;
+}
+
+.rateextra {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+    margin-bottom: 4px;
+}
+
+.descextra {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.billing {
+    margin-top: 3.5rem;
+    padding-bottom: 24px;
+    position: absolute;
+    width: 100%;
+}
+
+.billingform {
+    margin-top: 6rem;
+    margin-bottom: 0px !important;
+    padding-bottom: 24px !important;
+    position: absolute;
+    width: 100%;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-right: 38px;
+}
+
+.qname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quantityinput {
+    width: 92px;
+    height: 22px;
+    border: 0.6px solid rgba(15, 20, 58, 0.16);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.billheads {
+    display: inline-flex;
+    align-items: center;
+}
+
+.head {
+    margin-left: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.minimum {
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: rgba(15, 20, 58, 0.8);
+}
+
+.amount {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.number1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.total {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    justify-content: space-between;
+}
+
+.head2 {
+    margin-left: 14px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #0F143A;
+}
+
+.number2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0F143A;
+}
+
+.minimum2 {
+    margin-left: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: rgba(15, 20, 58, 0.8);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.continuebtn {
+    padding: 8px 40px;
+    background: #0F143A;
+    border-radius: 6px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.description {
+    margin-top: 12px;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: rgba(52, 52, 52, 0.8);
+}
+
+@media only screen and (max-width: 1225px) {
+    .box {
+        margin-top: 0px;
+        height: calc(100vh - 250px);
+    }
+
+    .boxorderform {
+        margin-top: 0px;
+        height: calc(100vh - 80px);
+    }
+
+    .closebtn {
+        display: flex;
+        justify-content: end;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: -15px;
+    }
+
+    .productselected {
+        height: calc(100vh - 580px);
+        top: 80px;
+        overflow-y: auto;
+    }
+
+    .billing {
+        margin-top: 4.5rem;
+        padding-bottom: 48px;
+        position: absolute;
+    }
+
+    .billingform {
+        margin-top: 10rem;
+        padding-bottom: 48px;
+        position: absolute;
+    }
+
+    .continuebtn {
+        margin-top: 12px;
+    }
+
+    .description {
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .box {
+        width: 100%;
+        background: #FFFEFD;
+        box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        position: fixed;
+        left: 0px;
+        top: 150px;
+        height: calc(100vh - 65px);
+    }
+
+    .boxorderform {
+        width: 100%;
+        background: #FFFEFD;
+        box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        position: fixed;
+        left: 0px;
+        top: 118px;
+        height: calc(100vh - 70px);
+    }
+
+    .boxdesign {
+        justify-content: space-between;
+    }
+
+    .productselected {
+        height: calc(100vh - 480px);
+        top: 80px;
+        overflow-y: auto;
+    }
+
+    .item {
+        margin-left: 20px;
+        margin-right: 15px;
+        width: auto;
+    }
+
+    .product {
+        width: 200px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .billing {
+        margin-top: 5rem;
+        padding-bottom: 16px;
+        position: absolute;
+    }
+
+    .billingform {
+        margin-top: 7.5rem;
+        padding-bottom: 16px;
+        position: absolute;
+    }
+
+    .continuebtn {
+        margin-top: 12px;
+    }
+
+    .description {
+        margin-top: 6px;
+    }
+}

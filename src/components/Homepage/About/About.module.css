@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600");
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.about {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    margin-top: 64px;
+    padding-bottom: 50px;
+}
+
+.about h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 116%;
+    margin-bottom: 46px;
+}
+
+.boxrow {
+    display: flex;
+    justify-content: center;
+}
+
+.swagbox {
+    position: relative;
+}
+
+.swagleft {
+    position: relative;
+    width: 423px;
+    height: 480px;
+    z-index: 2;
+    transform: translateX(213px);
+}
+
+.swagleftanimate{
+    position: relative;
+    width: 423px;
+    height: 480px;
+    z-index: 2;
+    animation: movel 1s linear 0s;
+    animation-fill-mode: forwards;
+    transform: translateX(213px);
+}
+
+.swagright {
+    position: relative;
+    width: 417px;
+    height: 480px;
+    z-index: 1;
+    transform: translateX(-209px);
+}
+
+.swagrightanimate{
+    position: relative;
+    width: 417px;
+    height: 480px;
+    z-index: 1;
+    animation: mover 1s linear 0s;
+    animation-fill-mode: forwards;
+    transform: translateX(-209px);
+}
+
+@keyframes movel {
+    from {
+        transform: translateX(160px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(-160px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.textblockleft {
+    position: absolute;
+    text-align: center;
+    margin-top: -325px;
+    margin-left: 100px;
+    z-index: 3;
+    transform: translateX(210px);
+}
+
+.tryblogos img {
+    width: 204px;
+    height: 92px;
+}
+
+.animatelogoandbutton{
+    position: absolute;
+    text-align: center;
+    margin-top: -325px;
+    margin-left: 100px;
+    z-index: 3;
+    animation: buttonmove 1s linear 0s;
+    animation-fill-mode: forwards;
+    transform: translateX(210px);
+}  
+
+.bookbtn {
+    text-align: center;
+    background: #0F143A;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 10px 24px;
+    margin-top: 0px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+@keyframes buttonmove {
+    from {
+        transform: translateX(160px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.textblockright {
+    position: absolute;
+    margin-left: 446px;
+    margin-top: -400px;
+    z-index: 3;
+}
+
+.Speech {
+    position: relative;
+    margin-bottom: 14px;
+    width: 100%;
+    opacity: 0%;
+}
+
+.speechanimate{
+    position: relative;
+    margin-bottom: 14px;
+    width: 100%;
+    transform: scale(0);
+    animation: 0.8s pop-swirl linear 1s forwards;
+}
+
+@keyframes pop-swirl {
+    0% {
+        transform: scale(0);
+        opacity: 0%;
+    }
+
+    64% {
+        transform: scale(1);
+        opacity: 100%;
+    }
+
+    84% {
+        transform: scale(0.9);
+        opacity: 100%;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
+.Speech img {
+    width: 100%;
+    height: 92px;
+}
+
+.speechanimate img {
+    width: 100%;
+    height: 92px;
+}
+
+.Speech p {
+    position: absolute;
+    top: 22px;
+    left: 36px;
+    width: 210px;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.speechanimate p {
+    position: absolute;
+    top: 22px;
+    left: 32px;
+    width: 210px;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 920px) {
+    .about {
+        padding-bottom: 56px;
+    }
+
+    .about h1 {
+        font-size: 48px;
+        margin-bottom: 46px;
+    }
+
+    .swagleft {
+        position: relative;
+        width: 301px;
+        height: 440px;
+        z-index: 2;
+        transform: translateX(151px);
+    }
+
+    .swagleftanimate{
+        position: relative;
+        width: 301px;
+        height: 440px;
+        z-index: 2;
+        animation: movel 1s linear;
+        animation-fill-mode: forwards;
+        transform: translateX(151px);
+    }
+
+    .swagright {
+        position: relative;
+        width: 299px;
+        height: 440px;
+        z-index: 1;
+        transform: translateX(-149px);
+    }
+
+    .swagrightanimate{
+        position: relative;
+        width: 299px;
+        height: 440px;
+        z-index: 1;
+        animation: mover 1s linear;
+        animation-fill-mode: forwards;
+        transform: translateX(-149px);
+    }
+
+    @keyframes movel {
+        from {
+            transform: translateX(151px);
+        }
+
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    @keyframes mover {
+        from {
+            transform: translateX(-151px);
+        }
+
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    .textblockleft {
+        position: absolute;
+        text-align: center;
+        margin-top: -290px;
+        margin-left: 66px;
+        transform: translateX(160px);
+    }
+
+    .animatelogoandbutton {
+        position: absolute;
+        text-align: center;
+        margin-top: -290px;
+        margin-left: 66px;
+    }
+
+    .tryblogos img {
+        width: 160px;
+        height: 72px;
+    }
+
+    .bookbtn {
+        margin-top: 0px;
+    }
+
+    .textblockright {
+        position: absolute;
+        margin-left: 312px;
+        margin-top: -340px;
+    }
+
+    .textblockright img {
+        width: 200px;
+        height: 72px;
+    }
+
+    .Speech {
+        position: relative;
+        margin-bottom: 12px;
+    }
+
+    .Speech p {
+        width: 148px;
+        position: absolute;
+        top: 16px;
+        left: 24px;
+        font-size: 16px;
+        line-height: 17.92px;
+        font-weight: 600;
+    }
+
+    .speechanimate {
+        position: relative;
+        margin-bottom: 12px;
+    }
+
+    .speechanimate p {
+        width: 148px;
+        position: absolute;
+        top: 19px;
+        left: 25px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .about {
+        padding-bottom: 28px;
+        margin-top: 36px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .swagleft {
+        position: relative;
+        width: 168px;
+        height: 242px;
+        z-index: 2;
+        transform: translateX(84px);
+    }
+
+    .swagright {
+        position: relative;
+        width: 164px;
+        height: 242px;
+        z-index: 1;
+        transform: translateX(-80px);
+    }
+
+    .swagleftanimate{
+        position: relative;
+        width: 168px;
+        height: 242px;
+        z-index: 2;
+        animation: movel 1s linear;
+        animation-fill-mode: forwards;
+        transform: translateX(84px);
+    }
+
+    .swagrightanimate{
+        position: relative;
+        width: 164px;
+        height: 242px;
+        z-index: 1;
+        animation: mover 1s linear;
+        animation-fill-mode: forwards;
+        transform: translateX(-80px);
+    }
+
+    @keyframes movel {
+        from {
+            transform: translateX(80px);
+        }
+
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    @keyframes mover {
+        from {
+            transform: translateX(-80px);
+        }
+
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    .textblockleft {
+        position: absolute;
+        text-align: center;
+        margin-top: -170px;
+        margin-left: 34px;
+        transform: translateX(84px);
+    }
+
+    .animatelogoandbutton {
+        position: absolute;
+        text-align: center;
+        margin-top: -170px;
+        margin-left: 34px;
+        animation: buttonmove 1s linear;
+        animation-fill-mode: forwards;
+        transform: translateX(-84px);
+    }
+
+    .tryblogos img {
+        width: 84px;
+        height: 38px;
+    }
+
+    .bookbtn {
+        font-size: 12px;
+        padding: 8px 14px;
+        margin-top: 0px;
+    }
+
+    @keyframes buttonmove {
+        from {
+            transform: translateX(80px);
+        }
+
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    .textblockright {
+        position: absolute;
+        margin-left: 172px;
+        margin-top: -205px;
+    }
+
+    .textblockright img {
+        width: 136px;
+        height: 48px;
+    }
+
+    .textblockright p {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0em;
+    }
+
+    .Speech {
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .Speech p {
+        width: 108px;
+        position: absolute;
+        top: 10px;
+        left: 16px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .speechanimate {
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .speechanimate p {
+        width: 108px;
+        position: absolute;
+        top: 11px;
+        left: 18px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .swagleft , .swagleftanimate , .swagright , .swagrightanimate {
+        display: none;
+    }
+
+    .textblockleft, .animatelogoandbutton{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        transform: translateX(0);
+        margin-bottom: 20px;
+    }
+
+    .textblockright{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        transform: translateX(0);
+    }
+
+    .Speech{
+        opacity: 1;
+    }
+}
